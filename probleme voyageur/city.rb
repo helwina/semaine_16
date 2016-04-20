@@ -1,12 +1,10 @@
 class City
   attr_accessor :latitude
   attr_accessor :longitude
-  attr_accessor :villes
 
-  def initialize( latitude = nil, longitude = nil)
+  def initialize( latitude, longitude)
     self.latitude = latitude
     self.longitude = longitude
-
   end
 
   def distance_to( city )
@@ -63,7 +61,6 @@ class City
       longitude: 7.752353
     }
     ]
-
   end
 
   def to_s
