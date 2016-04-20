@@ -1,6 +1,7 @@
 class City
   attr_accessor :latitude
   attr_accessor :longitude
+  attr_accessor :villes
 
   def initialize( latitude, longitude)
     self.latitude = latitude
