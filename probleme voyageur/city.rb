@@ -1,6 +1,5 @@
-
-
-villes[
+def city
+   villes[
   {
     nom: 'Paris',
     latitude: 48.856578,
@@ -46,5 +45,5 @@ villes[
     latitude: 48.573392,
     longitude: 7.752353
   }
-]
-
+  ]
+  end
